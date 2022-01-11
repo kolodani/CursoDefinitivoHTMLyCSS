@@ -1,0 +1,23 @@
+.titulo{
+   color: darkviolet;
+   font-size: medium;
+}
+
+h1{
+   color: blue;
+   font-size: 50px;
+}
+
+.menu{
+   color: green;
+   font-size: 30px;
+}
+
+.objetos{
+   color: purple;
+   font-size: 20px;
+}
+
+p{
+   color: darkred;
+}
