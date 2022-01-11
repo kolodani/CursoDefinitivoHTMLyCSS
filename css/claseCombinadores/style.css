@@ -1,3 +1,25 @@
+/* ejemplo uno*/
+/*
+h2 + p {
+   color: red;
+}
+*/
+
+/* ejemplo dos*/
+/*
 h2 ~ p {
+   color: red;
+}
+*/
+
+/* ejemplo tres*/
+/*
+div > p {
+   color: red;
+}
+*/
+
+/* ejemplo cuatro (no cambio nada en el html, sigue usando la parte del tres)*/
+div p {
    color: red;
 }
