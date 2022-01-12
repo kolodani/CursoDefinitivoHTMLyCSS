@@ -1,0 +1,42 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.superior{   
+   font-size: 16px;
+   padding-top: 30px; 
+   margin-left: 40px;    
+   background-color: red;
+   background-position: 100px;
+   border: 1px black outset;
+   border-radius: 15px;
+   display: inline-block;
+   min-width: 400px;
+   height: 100px;
+   text-align: center;
+   position: absolute;     
+}
+
+.inferior{ 
+   font-size: 16px;
+   margin-left: 0px;
+   padding-top: 150px;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-bottom: 150px;
+   background-color: grey;
+   background-position: 100px;
+   border: 1px black outset;
+   border-radius: 30px;
+   display: inline-block;
+   max-width: 500px;
+   max-height: 400px;
+   text-align: center;
+   margin-top: 50px;  
+}
+
+body{
+   margin: 100px;
+}
