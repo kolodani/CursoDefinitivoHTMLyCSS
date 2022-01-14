@@ -1,0 +1,29 @@
+*{
+   margin: 0px;
+   padding: 0px;
+
+}
+
+.cabecera {
+   background-color: violet;
+   padding: 0px;
+   margin: 0px;
+}
+
+.loguito{
+   text-align: start;
+   display: inline-block;
+}
+
+.menu {   
+   list-style: none;
+   text-align: right;
+   display: inline-block;
+   color: white;  
+}
+
+.parrafo {
+   background-color: grey;
+   margin: 0px;
+   padding: 0px;
+}
