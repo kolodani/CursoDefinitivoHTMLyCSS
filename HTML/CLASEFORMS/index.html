@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formularios</title>
+   </head>
+   <body>
+      <form action=""> <!-- esta es la etiqueta que se usa para hacer un formulario -->
+         <label for="nombre"> <!-- creo primero la etiqueta "label" esto me ayuda a englobar la pregunta y la camptura de la informacion -->
+            <span>¿Cual es tu nombre?</span> <!-- en esta etiqueta "span" pongo la pregunta que va antes de la caja -->
+            <input type="text" id="nombre" placeholder="Tu nombre"> <!-- el "input" toma y guarda con el "id" el dato que le doy y con "type" elijo el tipo de informacion que recolecto -->
+               <!-- "placeholder" es una referencia que aparece en la caja para ayudar al usuario a entender que se le pide en la pregunta del formulario -->
+         </label>
+         <label for="inicio-clases">
+            <span>¿Que dia iniciaste las clases?</span>
+            <input type="date" id="inicio-clases">
+         </label>
+         <label for="horario">
+            <span>¿En que horario estudias?</span>
+            <input type="time" id="horario">
+         </label>
+      </form>
+   </body>
+</html>
