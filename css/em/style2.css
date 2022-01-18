@@ -1,0 +1,8 @@
+/* em toma el valor del padre directo y lo multiplica por el valor que se le da */
+.text-container {
+   font-size: 1.5em;
+}
+
+.text-container div {
+   font-size: 1.5em;
+}
