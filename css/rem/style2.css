@@ -1,0 +1,18 @@
+/* con esto reinicio el tamaño de caja, el margin y el padding*/
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+/* esto hace que un "rem" pase de medir 16px a 10px */
+html {
+   font-size: 62.5%;
+}
+
+p {
+   font-size: 1.6rem;
+}
+
+main div {
+   font-size: 1.6rem;
+}
