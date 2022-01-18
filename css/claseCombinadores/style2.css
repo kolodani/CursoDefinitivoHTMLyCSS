@@ -1,4 +1,29 @@
+/* ejemplo de HERMANO ADYACENTE */
 /* hermano adyacente o cercano funcion con el signo mas y lo que hace en el ejemplo es alterar a todas las etiquetas "p" que siguen a un etiqueta "h2" */
+/*
 h2 + p {
+   color: red;
+}
+*/
+
+/* ejemplo de HERMANO GENERAL */
+/* hermanos generales son todas las etiquetas que estan juntas a la etiqueta que queremos cambiar */
+/*
+h2 ~ p {
+   color: red;
+}
+*/
+
+/* ejemplo de HIJO */
+/* hijo o hijo directo funciona de la forma que todas las etiquetas "p" que estan dentro de "div" de forma directa */
+/*
+div > p {
+   color: red;
+}
+*/
+
+/* ejemplo de DECENDIENTE */
+/* decendiente es cuando todas las etiquetas "p" que estan contenidas en algun "div" no necesitan ser directas */
+div p {
    color: red;
 }
