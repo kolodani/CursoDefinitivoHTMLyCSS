@@ -1,0 +1,18 @@
+/* asi se llama por etiqueta */
+p {
+   color: blue;
+   font-size: 40px;
+}
+
+/* asi se llama por clase, se le agrega un punto antes */
+/* class */
+.parrafo {
+   color: red;
+}
+
+/* asi se llama por ID, se le agrega un numeral antes */
+/* ID */
+#texto {
+   color: yellow;
+   font-size: 24px;
+}
